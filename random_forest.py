@@ -12,7 +12,7 @@ pd.set_option('max_columns', None)
 
 #Reads the csv that contains the data and puts them in a dataframe
 #The data in the csv are separated with ; delimiter
-dataset = pd.read_csv("BankChurners.csv", delimiter = ";")
+dataset = pd.read_csv('BankChurners.csv', delimiter = ';')
 
 #Y gets the first column (Attrition Flag) of the dataset and X gets the rest columns
 #X will be used for predicting the value of Y in the future
@@ -78,7 +78,7 @@ results = cross_val_score(estimator = classifier, X = X_train, y = Y_train, cv =
 print(results)
 
 #Prints the mean score of the results
-print("Mean score : {:.2f} %".format(results.mean() * 100))
+print('Mean score : {:.2f} %'.format(results.mean() * 100))
 
 #Prints the standard deviation of the results
-print("Standard deviation: {:.2f} %".format(results.std() * 100))
+print('Standard deviation: {:.2f} %'.format(results.std() * 100))
