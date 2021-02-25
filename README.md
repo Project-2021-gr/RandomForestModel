@@ -8,7 +8,7 @@
 
 ## Imbalanced dataset
 
- The problem with the dataset is that the majority of the clients would not leave the bank, thus all the models that we tried had low accuracy results. In order to solve the problem we used imblearn library to balance the set. Also we used deep forest model.
+ The problem with the dataset is that the majority of the clients would not abandon their credit card, thus all the models that we tried had low accuracy results. In order to solve the problem we used imblearn library to balance the set. Also we used deep forest model.
 
 ## Results
  Mean score for 10 decision trees : ~ 90-91%  
@@ -19,4 +19,5 @@
  3.7.6
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+ [MIT](https://choosealicense.com/licenses/mit/)
